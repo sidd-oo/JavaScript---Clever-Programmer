@@ -1,0 +1,63 @@
+*{
+    background-color: rgb(221, 224, 224);
+    text-align: center;
+}
+
+#Challeges{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2%;
+    border: black 2px solid;
+}
+
+#Assignment-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#btn-display{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+   
+button{
+    margin: 1px 10px 1px 10px; 
+    padding: 6px 12px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #00bbff;
+    color: white;
+    border: none;
+    box-shadow: 0 5px #999;
+  }
+  
+  button:hover {
+      background-color: #007dab;
+      transform: scale(1.1);
+    }
+  
+  button:active{
+      background-color: #007dab;
+      box-shadow: 0 3px #666;
+      transform: translateY(4px);
+  }
+
+#count-btn{
+    background-color: rgb(58, 30, 136);
+}
+
+#reset-btn{
+    background-color: red;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: crimson;
+}
+
+h2{
+    color: blue;
+}
