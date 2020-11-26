@@ -1,0 +1,8 @@
+#cat-container{
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding:10px 10px 10px 10px;
+}
