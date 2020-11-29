@@ -51,14 +51,6 @@ button{
       transform: translateY(4px);
   }
 
-#count-btn{
-    background-color: rgb(58, 30, 136);
-}
-
-#reset-btn{
-    background-color: red;
-}
-
 h1{
     font-family: 'Times New Roman', Times, serif;
     color: crimson;

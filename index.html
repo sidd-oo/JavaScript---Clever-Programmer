@@ -6,6 +6,7 @@
     <link rel = "stylesheet" href = "./Calculate number of days of your birth/style.css">
     <link rel = "stylesheet" href = "./Cat Genrator/style.css">
     <link rel = "stylesheet" href = "./Rock Paper Scissor/style.css">
+    <link rel = "stylesheet" href = "./Button color change/style.css">
 </head>
 <body>
     <main>
@@ -13,15 +14,15 @@
             <div class = "Assignment">
                 <h1>Challenge 1 : Count number of days</h1>
                 <div id = "btn-display">
-                    <button type = "button" id = "count-btn">COUNT</button>
-                    <button type = "button" id = "reset-btn">RESET</button>
+                    <button type = "button" class = "blueButtons" id = "count-btn" >COUNT</button>
+                    <button type = "button" class = "redButtons" id = "reset-btn">RESET</button>
                 </div>
                 <h2 id = "result"></h2>
             </div>
 
             <div class = "Assignment">
                 <h1>Challenge 2: Generate Cats</h1>
-                <button type = "button" id = "btn-generate">Generate Cats</button>
+                <button type = "button" class = "greenButtons" id = "btn-generate">Generate Cats</button>
                 <div id = cat-container>
 
                 </div>
@@ -35,10 +36,29 @@
                     <img src = "./Rock Paper Scissor/images/scissor-img.png" width = "190px" length= "170px" class = "rps-img" id = "scissor" onclick="rpsGame(this)">
                 </div> 
             </div>
+
+            <div class = "Assignment">
+                <h1>Challenge 4: Button Color Change</h1>
+                <div id = "flex-box-buttons">
+                    <form action = "">
+                        <select name = "backdrop" id = "backdrop" onchange="buttonColorChange(this)">
+                            <option value = "random">Random</option>
+                            <option value = "red">Red</option>
+                            <option value = "green">Green</option>
+                            <option value = "reset">Reset</option>
+                        </select>
+                    </form>
+                    <button class = "redButtons">Wee!</button>
+                    <button class = "greenButtons">Yahoo!</button>
+                    <button class = "blueButtons">Google!</button>
+                    <button class = "yellowButtons">Facebook!</button>
+                </div>
+            </div>
         </div>
     </main>
     <script src = "./Calculate number of days of your birth/script.js"></script>
     <script src = "./Cat Genrator/script.js"></script>
     <script src = "./Rock Paper Scissor/script.js"></script>
+    <script src = "./Button color change/script.js"></script>
 </body>
 </html>

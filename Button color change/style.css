@@ -1,0 +1,36 @@
+*{
+    background-color: powderblue;
+}
+
+#flex-box-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.redButtons{
+    background-color:red;
+}
+
+.greenButtons{
+    background-color:green;
+}
+
+.blueButtons{
+    background-color: blue;
+}
+
+.yellowButtons{
+    background-color: yellow;
+}
+
+.whiteButtons{
+    background-color: white;
+}
+
+.pinkButtons{
+    background-color: pink;
+}

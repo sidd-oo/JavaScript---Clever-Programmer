@@ -24,7 +24,7 @@ function finalMessageDB(yourScore){
     if(yourScore === 0){
         return {"message": "You've lost.", "color":"red"};
     }else if(yourScore === 0.5){
-        return {"message": "Tie.", "color":"orange"};
+        return {"message": "You've tied.", "color":"orange"};
     }else{
         return {"message": "You've won.", "color":"green"};
     }
